@@ -1,0 +1,39 @@
+
+.column {
+	margin-top: 2%;
+	vertical-align: top;
+	display: inline-block;
+	border: 1px solid rgba(230, 0, 0, 1);
+	height: 800px;
+	width: 24%;
+}
+
+#pageOne {
+	text-align: center;
+}
+
+#aboutMe {
+	border: 1px solid rgba(230, 0, 0, 1);
+	height: 250px;
+	margin: 5px;
+	background-color: rgba(230, 0, 0, 1);
+}
+
+p.text {
+	text-align: left;
+  margin: 10px;
+  font-family: Futura-CondensedExtraBold;
+  color: white;
+  font-size: 10.5pt;
+}
+
+.speachBubble {
+  width: 0;
+  height: 0;
+  border-right: 30px solid transparent;
+  border-top: 50px solid rgba(230,0,0,1);
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+
