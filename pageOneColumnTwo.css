@@ -1,0 +1,67 @@
+h1 {
+	text-align: left;
+  margin-top: -1px;
+  font-family: Roboto;
+  font-weight: 900;
+	color: rgba(203, 9, 9, 1);
+}
+
+h1.title {
+	font-size: 28pt;	
+	-webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(203, 9, 9, 1);
+}	
+
+h1.subtitle {
+	margin-top: -20px;
+	font-style: 24pt;
+}
+
+h2.projectTitle {
+	font-size: 14pt;
+	text-align: left;
+  margin-top: -1px;
+  font-family: Roboto Condensed;
+  font-weight: 700;
+	color: rgba(203, 9, 9, 1);
+}
+
+p.projectLinks {
+  font-size: 9pt;
+  font-family: Roboto Mono;
+  font-weight: 300;
+  text-align: left;
+  margin-left: -1px;
+  margin-top: -12px;
+  margin-bottom: 12px;
+  color: rgba(203, 9, 9, 1);
+}
+
+a.projectLinks {
+	color: rgba(203, 9, 9, 1);
+}
+
+p.projectDescription {
+  font-family: Roboto Mono;
+  font-weight: 300;
+  font-size: 9pt;
+  line-height: 120%;
+  text-align: left;
+  margin-left: 1px;
+}
+
+p.descriptionTitle {
+  font-family: Roboto;
+  font-weight: 900;
+  letter-spacing: .5px;
+	margin-top: 20px;
+	font-weight: bold;
+	margin-bottom: -5px;
+}
+
+.borderDashLine {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	border-top: 1px dashed rgba(203, 9, 9, 1);
+}
