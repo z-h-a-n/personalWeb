@@ -1,6 +1,13 @@
 require 'sinatra'
 
 get '/' do
-	@page = 'home'
-	erb :index
+	erb :home
+end
+
+get '/projects' do
+	erb :projects
+end
+
+get '/about' do
+	erb :about
 end

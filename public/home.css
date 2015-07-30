@@ -1,0 +1,68 @@
+.homeBox {
+	margin-top: 80px;
+}
+
+.homeName {
+	margin-top: -20px;
+	margin-bottom: -50px;
+	font-size: 100pt;
+	text-align: center;
+}
+
+#homeFirstName {
+	margin-left: -150px;
+}
+
+#homeAboutMe {
+	margin-left: 5px;
+	width: 300px;
+	padding: 2px;
+	background-color: rgba(205, 23, 23, 1);
+}
+
+.homeSpeachBubble {
+	margin-left: 60%;
+}
+
+.homeSelfDescription {
+  text-align: center;
+  margin-top: 30px;
+  font-family: roboto mono;
+  font-size: 10.5pt;
+  color: rgba(205, 9, 9, 1);
+}
+
+.homeNameBox {
+	width: 100%;
+  text-align: center;
+}
+
+.homeNavBox {
+	margin-left: -100px;
+}
+
+.navHome {
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	font-family: Roboto Condensed;
+  font-weight: 100;
+  list-style-type: none;
+  width: 220px;
+  border: 1px solid;
+  color: rgba(205, 9, 9, 1);
+}
+
+.navHome:hover {
+	color: white;
+	background-color: rgba(205, 9, 9, 1);
+}
+
+body {
+	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+}
+    
+@-webkit-keyframes fadein {
+    from { opacity: 0.4; }
+    to   { opacity: 1; }
+}
