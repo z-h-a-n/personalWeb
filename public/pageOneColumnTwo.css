@@ -27,7 +27,7 @@ h2.projectTitle {
 	color: rgba(203, 9, 9, 1);
 }
 
-p.projectLinks {
+.projectLinks {
   font-size: 9pt;
   font-family: Roboto Mono;
   font-weight: 300;
@@ -39,7 +39,25 @@ p.projectLinks {
 }
 
 a.projectLinks {
+  display: inline-block;
+  border: 1px solid;
+  padding: 2px;
+  width: 100px;
+  text-align: center;
 	color: rgba(203, 9, 9, 1);
+}
+
+a.projectLinks:hover {
+  background-color: rgba(203, 9, 9, 1);
+  color: white;
+}
+
+div.links {
+  margin-left: -80px;
+}
+
+a.video {
+  margin-left: -115px;
 }
 
 p.projectDescription {

@@ -21,3 +21,15 @@
 	#columnFour {
 		border: none;
 	}
+
+	.high {
+		width: 295px;
+	}
+
+	.mid {
+		width: 250px;
+	}
+
+	.low {
+		width: 100px;
+	}
